@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15%;
+}
+
+forms {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+form > input {
+    flex: auto;
+    margin: .5em;
+}
+
+input {
+    border: none;
+    background: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    padding: .75rem 1rem;
+}
+
+input[type="submit"] {
+    background: hotpink;
+    color: #FFF;
+}
